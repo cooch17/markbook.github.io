@@ -197,59 +197,55 @@ rel="nofollow,noindex">Training</a></li>
 
 <h1>Book chapters & data files</h1>
 <div class="left-box">
-<form action="" method="post"> 
-<SELECT NAME="menu"  class="pulldown"
-onChange=chapterPick(this.form.menu.options[this.form.menu.selectedIndex].value)>
-
-<option value=9999 selected> Select chapter
-<option value=1717>
-<option value=0>  Foreward
-
-<option value=1717>
-<option value=1717> &nbsp;CORE CHAPTERS
-<option value=1717>
-<option value=1>  1. intro + background...
-<option value=2>  2. data formatting 
-<option value=3>  3. first steps...
-<option value=4>  4. building/picking models
-<option value=5>  5. goodness of fit
-<option value=6>  6. linear models
-<option value=7>  7. age & cohort models
-<option value=8> 8. dead recovery models
-<option value=9> 9. live-dead analysis
-<option value=10> 10. multi-state models
-<option value=11> 11. individual covariates
-<option value=1717>
-<option value=1717> &nbsp;ADVANCED CHAPTERS
-<option value=1717>
-<option value=12> 12. Jolly-Seber models
-<option value=13> 13. 'reverse-time' models
-<option value=14> 14. multi-state Jolly-Seber
-<option value=15> 15. closed-capture models
-<option value=16> 16. robust design models
-<option value=17> 17. known fate models
-<option value=18> 18. nest-survival models
-<option value=19> 19. mark-resight models
-<option value=20> 20. young survival models
-<option value=21> 21. density estimation
-<option value=22> 22. occupancy (single-species)
-<option value=23> 23. ocupancy (multi-species)
-<option value=1717>
-<option value=5252> Appendix A (simulations)
-<option value=5253> Appendix B (Delta method)
-<option value=5254> Appendix C (RMark)
-<option value=5255> Appendix D (random effects)
-<option value=5256> Appendix E (MCMC)
-<option value=5257> Appendix F (data cloning)
-<option value=5258> Appendix G (data bootstrap)
-<option value=1717>
-<option value=2525> Index
-<option value=1717>
-<option value=1717> &nbsp;-> DATA FILES <-
-<option value=1717>
-<option value=1313> Example data files
-</SELECT>
-</font>
+<form action="" method="post">
+  <SELECT NAME="menu" class="pulldown" onChange="chapterPick(this.form.menu.options[this.form.menu.selectedIndex].value)">
+    <option value="9999" selected>Select chapter</option>
+    <option value="0">Foreword</option>
+    
+    <optgroup label="CORE CHAPTERS">
+      <option value="1">1. intro + background...</option>
+      <option value="2">2. data formatting</option>
+      <option value="3">3. first steps...</option>
+      <option value="4">4. building/picking models</option>
+      <option value="5">5. goodness of fit</option>
+      <option value="6">6. linear models</option>
+      <option value="7">7. age & cohort models</option>
+      <option value="8">8. dead recovery models</option>
+      <option value="9">9. live-dead analysis</option>
+      <option value="10">10. multi-state models</option>
+      <option value="11">11. individual covariates</option>
+    </optgroup>
+    
+    <optgroup label="ADVANCED CHAPTERS">
+      <option value="12">12. Jolly-Seber models</option>
+      <option value="13">13. 'reverse-time' models</option>
+      <option value="14">14. multi-state Jolly-Seber</option>
+      <option value="15">15. closed-capture models</option>
+      <option value="16">16. robust design models</option>
+      <option value="17">17. known fate models</option>
+      <option value="18">18. nest-survival models</option>
+      <option value="19">19. mark-resight models</option>
+      <option value="20">20. young survival models</option>
+      <option value="21">21. density estimation</option>
+      <option value="22">22. occupancy (single-species)</option>
+      <option value="23">23. ocupancy (multi-species)</option>
+    </optgroup>
+    
+    <optgroup label="APPENDICES">
+      <option value="5252">Appendix A (simulations)</option>
+      <option value="5253">Appendix B (Delta method)</option>
+      <option value="5254">Appendix C (RMark)</option>
+      <option value="5255">Appendix D (random effects)</option>
+      <option value="5256">Appendix E (MCMC)</option>
+      <option value="5257">Appendix F (data cloning)</option>
+      <option value="5258">Appendix G (data bootstrap)</option>
+    </optgroup>
+    
+    <optgroup label="OTHER">
+      <option value="2525">Index</option>
+      <option value="1313">Example data files</option>
+    </optgroup>
+  </SELECT>
 </form>
 </div>			
 				
